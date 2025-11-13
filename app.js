@@ -1,14 +1,9 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
-// --- Firebase Simulation for Canvas Environment ---
-// In the actual Canvas environment, these imports and variables are provided.
-// We define the interface here for structure and TypeScript-like clarity.
-/*
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken } from 'firebase/auth';
 import { getFirestore, collection, addDoc, onSnapshot, query } from 'firebase/firestore';
 import { setLogLevel } from 'firebase/firestore';
-*/
 
 // Global Constants
 // Note: While the prompt asks for a more advanced model, for the sake of this single-file demonstration, 
